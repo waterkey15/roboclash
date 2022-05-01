@@ -1,0 +1,1052 @@
+/************** TOC **************/
+/* 1- Variables */
+/* 2- Gral Styles */
+/* 3- Utility Classes */
+
+/******* 1.0 - Variables *******/
+
+:root {
+    /**FONT SIZE**/
+    --font-96: 6rem;
+    --font-80: 5rem;
+    --font-85: 5.313rem;
+    --font-56: 3.5rem;
+    --font-48: 3rem;
+    --font-40: 2.5rem;
+    --font-36: 2.25rem;
+    --font-32: 2rem;
+    --font-24: 1.5rem;
+    --font-22: 1.375rem;
+    --font-18: 1.125rem;
+    --font-14: 0.875rem;
+    --font-16: 1rem;
+    --font-20: 1.25rem;
+    --font-30: 1.875rem;
+  
+    /**FONT FAMILY**/
+    --font-jost: "Jost", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-openSans: "Open Sans", sans-serif;
+  
+    /**COLORS***/
+    --font-white: #fff;
+    --font-black: #000000;
+    --color-red: #ed1c24;
+    /**LINE-HEIGHT **/
+    --line-height-85: 85px;
+    --line-height-52: 52px;
+    --line-height-44: 44px;
+    --line-height-43: 43px;
+    --line-height-29: 29px;
+  
+    /**FONT_WEIGHT**/
+    --font-weight-700: 700;
+    --font-weight-600: 600;
+    --font-weught-500: 500;
+    --font-weight-400: 400;
+    --font-weight-300: 300;
+    --font-weight-250: 250;
+  
+    /***BG***/
+    --bg-gral: #011727;
+  }
+  
+  
+  
+    /***Desktop Font Styles***/
+    .jost_48_43_400{
+      font-family: var(--font-jost);
+      font-size: var(--font-48);
+      line-height: 43.2px;
+      font-weight: var(--font-weight-400);
+     }
+    .jost_96_86_400{
+      font-family: var(--font-jost);
+      font-size: var(--font-96);
+      line-height: 86.4px;
+      font-weight: var(--font-weight-400);
+    }
+  
+    .monserrat_18_32_600{
+      font-size: var(--font-18);
+      line-height: 32px;
+      font-weight: var(--font-weight-600);   
+    }
+    .monserrat_18_324_500{
+      font-size: var(--font-18);
+      line-height: 32.4px;
+      font-weight: var(--font-weight-500);       
+    }
+    .monserrat_18_86_400{
+      font-size: var(--font-18);
+      line-height: 86.4px;
+      font-weight: var(--font-weight-400);   
+    }
+    .monserrat_22_35_500{
+      font-size: var(--font-22);
+      line-height: 35.2px;
+      font-weight: var(--font-weight-500);   
+    }
+    .monserrat_24_29_700{
+      font-size: var(--font-24);
+      line-height: 29.26px;
+      font-weight: var(--font-weight-700);   
+    }
+    .monserrat_36_43_700{
+      font-size: var(--font-36);
+      line-height: 43.88px;
+      font-weight: var(--font-weight-700);  
+    }
+    .monserrat_40_48_400{
+      font-size: var(--font-40);
+      line-height: 48px;
+      font-weight: var(--font-weight-400);  
+    }
+    .monserrat_80_85_250{
+      font-size: var(--font-80);
+      line-height: 85px;
+      font-weight: var(--font-weight-250);  
+    }
+    .monserrat_85_80_250{
+      font-size: var(--font-85);
+      line-height: 80px;
+      font-weight: var(--font-weight-250);    
+    }
+  
+    .opensans_14_24_600{
+      font-family: var(--font-openSans);
+      font-size: var(--font-14);
+      line-height: 24px;
+      font-weight: var(--font-weight-600);   
+      font-weight: normal;
+    }
+    .opensans_20_32_600{
+      font-size: var(--font-openSans);
+      line-height: 32px;
+      font-weight: var(--font-weight-600);   
+      font-weight: normal;
+    }
+  
+    .monserrat_24_29_700_combat{
+      font-size: var(--font-24);
+      line-height: 29.26px;
+      font-weight: var(--font-weight-700);   
+    }
+    .jost_48_43_400_combat{
+      font-family: var(--font-jost);
+      font-size: var(--font-48);
+      line-height: 43.2px;
+      font-weight: var(--font-weight-400);
+     }
+    .monserrat_36_43_700_combat{
+      font-size: var(--font-36);
+      line-height: 43.88px;
+      font-weight: var(--font-weight-700);  
+    }
+  
+    .jost_48_43_400_missup{
+      font-family: var(--font-jost);
+      font-size: var(--font-48);
+      line-height: 43.2px;
+      font-weight: var(--font-weight-400);
+     }
+  
+    .monserrat_80_85_250_tokenomics{
+      font-size: var(--font-80);
+      line-height: 85px;
+      font-weight: var(--font-weight-250);  
+      text-align: center;
+    }
+  
+    /***Mobile Font Styles***/
+  
+    @media (max-width: 769px) {
+      .jost_48_43_400{
+        font-family: var(--font-jost);
+        font-size: var(--font-24);
+        line-height: 29.26px;
+        font-weight: var(--font-weight-700);
+       }
+      .jost_96_86_400{
+        font-family: var(--font-jost);
+        font-size: var(--font-48);
+        line-height: 43.2px;
+        font-weight: var(--font-weight-400);
+      }
+    
+      .monserrat_18_32_600{
+        font-size: var(--font-18);
+        line-height: 32px;
+        font-weight: var(--font-weight-600);   
+      }
+  
+      .monserrat_18_324_500{
+        font-size: var(--font-18);
+        line-height: 32.4px;
+        font-weight: var(--font-weight-500);       
+      }
+  
+      .monserrat_18_86_400{
+        font-size: var(--font-18);
+        line-height: 32.4px;
+        font-weight: var(--font-weight-500);   
+      }
+  
+      .monserrat_18_400{
+        font-size: var(--font-18);
+       
+        font-weight: var(--font-weight-500);   
+      }
+  
+      .monserrat_22_35_500{
+        font-size: var(--font-16); 
+        line-height: 28.8px;
+        font-weight: var(--font-weight-500);   
+      }
+  
+      .monserrat_24_29_700{
+        font-size: var(--font-24);
+        line-height: 29.26px;
+        font-weight: var(--font-weight-700);   
+      }
+  
+      .monserrat_36_43_700{
+        font-size: var(--font-24);
+        line-height: 29.26px;
+        font-weight: var(--font-weight-700);  
+      }
+      .monserrat_40_48_400{
+        font-size: var(--font-40);
+        line-height: 48px;
+        font-weight: var(--font-weight-400);  
+      }
+      .monserrat_80_85_250{
+        font-size: var(--font-40);
+        line-height: 51.5px;
+        font-weight: var(--font-weight-250);  
+      }
+      .monserrat_85_80_250{
+        font-size: var(--font-40);
+        line-height: 51.5px;
+        font-weight: var(--font-weight-250);    
+      }
+    
+      .opensans_14_24_600{
+        font-size: var(--font-16);
+        line-height: 28.8px;
+        font-weight: var(--font-weight-600);   
+      }
+  
+      .opensans_20_32_600{
+        font-family: var(--font-openSans);
+        font-size: var(--font-20);
+        line-height: 32px;
+        font-weight: var(--font-weight-600);   
+      }
+      .monserrat_24_29_700_combat{
+        font-size: var(--font-24);
+        line-height: 29.26px;
+        font-weight: var(--font-weight-700);   
+      }
+      .jost_48_43_400_combat{
+        font-family: var(--font-jost);
+        font-size: var(--font-48);
+        line-height: 43.2px;
+        font-weight: var(--font-weight-400);
+       }
+      .monserrat_36_43_700_combat{
+        font-size: var(--font-24);
+        line-height: 29px;
+        font-weight: var(--font-weight-700);  
+      }
+      .jost_48_43_400_missup{
+        font-family: var(--font-jost);
+        font-size: var(--font-30);
+        line-height: 31.62px;
+        font-weight: var(--font-weight-400);
+       }
+       .monserrat_80_85_250_tokenomics{
+        font-size: var(--font-40);
+        line-height: 51.5px;
+        font-weight: var(--font-weight-250);  
+        text-align: left;
+      }
+    }
+  
+  
+  
+  
+  /**************MARGINS ***********/
+  .margin-auto {
+    margin: 0 auto !important;
+  }
+  .margin-top-1 {
+    margin-top: 1rem;
+  }
+  
+  .margin-bottom-1 {
+    margin-bottom: 1rem;
+  }
+  
+  .margin-bottom-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .margin-top-8 {
+    margin-top: 8rem;
+  }
+  
+  .margin-bottom-8 {
+    margin-bottom: 8rem;
+  }
+  .margin-top-16 {
+    margin-top: 16rem;
+  }
+  
+  .padding-top-8{
+    padding-top: 8rem;
+  }
+  .margin-5{
+      margin: 5rem 5rem 0 5rem;
+  }
+  
+  @media (max-width: 769px) {
+    .margin-top-16 {
+      margin-top: 8rem;
+    }
+  }
+  /************FONTS************/
+  
+  /****MONTSERRAT*****/
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+  /*****JOST*****/
+  @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+  /*****OPENSANS*****/
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+  /***** 2.0 Gral Styles *****/
+  
+  body {
+    background-color: var(--bg-gral);
+    color: var(--font-white);
+    font-family: var(--font-montserrat);
+  }
+  
+  .card {
+    background: radial-gradient(
+        61.55% 61.55% at 95.52% 5.91%,
+        rgba(106, 200, 241, 0.2) 0%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      #112437;
+    border: 1px solid #4063be;
+    box-sizing: border-box;
+    border-radius: 12px;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #193857;
+    background-clip: padding-box;
+    border: 1px solid #193857;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--font-white);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-red);
+    border-radius: 0 1.25rem 1.25rem 1.25rem;
+  }
+  
+  .input-custom {
+   
+    margin: 0 auto;
+  }
+  
+  
+  #mc_embed_signup .mc-field-group {
+   
+     
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #193857;
+    background-clip: padding-box;
+    border: 1px solid #193857;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1.25rem 0 0 1.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  #mc_embed_signup .mc-field-group input {
+  
+   
+    padding: 8px 0;
+    text-indent: 2%;
+    background-color: transparent;
+    border: none;
+  }
+  
+  #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
+    border: 2px solid #e85c41;
+    background-color: transparent;
+  }
+  
+  #mc_embed_signup input {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--font-white);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-red);
+    border-radius: 1 1.25rem 1.25rem 1.25rem;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  } /***** 3.0 UTILITY CLASSES ****/
+  
+   
+  /******** BUTTONS ******/
+  .btn-primary {
+    color: #fff;
+    background-color: var(--color-red);
+    border-color: var(--color-red);
+  }
+  
+  .btn-xl {
+    padding: 8px 32px 8px 32px;
+    font-size: var(--font-18);
+   
+    font-weight: var(--font-weight-600);  
+    border: none;
+    border-radius: 10rem;
+    
+  }
+  
+  @media (max-width: 769px) {
+    .btn-xl {
+      padding: 8px 32px 8px 32px;
+      font-size: var(--font-18);
+      line-height: 32px;
+      font-weight: var(--font-weight-600);  
+      border: none;
+      border-radius: 10rem;
+     
+    }
+  }
+  
+  .btn-xl_menu {
+    padding: 8px 32px 8px 32px;
+    font-size: var(--font-18);
+   
+    font-weight: var(--font-weight-600);  
+    border: none;
+    border-radius: 10rem;
+    margin: 0 2rem 0 2rem;
+  }
+  
+  @media (max-width: 769px) {
+    .btn-xl_menu {
+      padding: 8px 32px 8px 32px;
+      font-size: var(--font-18);
+    
+      font-weight: var(--font-weight-600);  
+      border: none;
+      border-radius: 10rem;
+      margin: 0.5rem 2rem 0 0.5rem;
+    }
+  }
+  
+  
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    background: white;
+  }
+  
+  .btn-xl_2 {
+    padding: 8px 32px 8px 32px;
+   
+    font-weight: 600;
+    /* border: none; */
+    border-radius: 10rem;
+    margin: 0 2rem 0 2rem;
+  }
+  
+  
+  .news-read-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 8px 32px;
+    width: 112px;
+    height: 48px;
+    left: 188.19px;
+    top: 158px;
+    border: 1px solid #FFFFFF;
+    border-radius: 34px;
+    color: #FFFFFF;
+    background-color: transparent;
+  }
+  /********** MENU *****/
+  
+  .navbar-nav .nav-item .nav-link {
+    color: var(--bs-white);
+    padding: 0 1rem;
+    font-family: var(--bs-montserrat);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5.33549px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 10rem;
+  }
+  @media (max-width: 991px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      margin-left: 0;
+    }
+  }
+  
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  }
+  
+  /***** HOME **********/
+  
+  #home {
+    height: 100vh;
+    background-image: url("../images/new_version/home/home_hero_new.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .bg-black {
+    background-color: #000 !important;
+  }
+  
+  #investors {
+    height: 120vh;
+    background-image: url("../images/new_version/home/bg_investors.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 769px) {
+    #investors {
+      height: 60vh;
+      background-image: url("../images/new_version/home/bg_investors.png");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+  
+  /******************TOKENOMICS*********/
+  #header_tokenomics {
+      height: 120vh;
+      background-image: url("../images/new_version/tokenomics/hero2.png");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    @media (max-width: 769px) {
+      #header_tokenomics {
+        height: 150vh;
+        background-image: url("../images/new_version/tokenomics/hero2.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        }
+    }
+  
+    .block1{
+      width: 80%; float: right; margin-right: -120px;
+    }
+    @media (max-width: 769px) {
+      .block1{
+        width: 80%; float: right; margin-right: -12px;
+        display: none;
+      }
+      }
+  
+      @media (max-width: 1025px) {
+        .block1{
+          width: 80%; float: right; margin-right: -12px;
+          display: none;
+        }
+        }
+  
+  
+  
+  #token_section{
+      height: 100%;
+      background-image: url(../images/new_version/tokenomics/token_section.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+  }
+  
+  
+    @media (min-width: 300px) {
+      #token_section{
+        height: 100%;
+        background-image: url(../images/new_version/tokenomics/token_section.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      }
+      }
+      @media (max-width: 1026px) {
+        #token_section{
+          height: 100%;
+          background-image: url(../images/new_version/tokenomics/token_section.png);
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-position: center center;
+          background-size: cover;
+        }
+        }
+        @media (max-width: 769px) {
+          #token_section{
+            height: 100%;
+            background-image: url(../images/new_version/tokenomics/token_section.png);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+          }
+          }
+  
+  #faq-btn {
+      text-align: left !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      /* background-color: #4063BE; */
+      color: #dbc5ff;
+      width: 100%;
+      
+  }
+  
+  .btn-link {
+      font-weight: 400;
+      color: #0d6efd;
+      text-decoration: none;
+  }
+  
+  /********************GAME*********************/
+  
+  #hero_game {
+    height: 100vh;
+    background-image: url(../images/new_version/game/hero_game.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  
+  
+  #bg_cards{
+    height: 160vh;
+    background-image: url(../images/new_version/game/bg_cards.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 30rem;
+  }
+  
+  @media (max-width: 769px){
+    #bg_cards{
+      height: 2050px;
+      background-image: url(../images/new_version/game/bg_cards.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      padding-bottom: 30rem;
+    }
+    }
+  
+  
+  .game_text_card {
+    color: #41EAD4 !important;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+    /**********EVENTS***************/
+    #events_header{
+      height: 100vh;
+      background-image: url(../images/new_version/minigame/bg_minigame2.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    } 
+  
+    @media (max-width: 769px) {
+      #events_header{
+        height: 150vh;
+        background-image: url(../images/new_version/minigame/bg_minigame2.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      } 
+    }
+  
+    #play_drops{
+      height: 180vh;
+      background-image: url(../images/new_version/minigame/play_minigame.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+  
+    #faqs{
+      height: 150vh;
+      background-image: url(../images/new_version/minigame/faqs.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  
+    @media (max-width: 769px) {
+      #faqs{
+        height: 300vh;
+        background-image: url(../images/new_version/minigame/faqs.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      }
+    }
+  
+  
+  
+    /**************careers*****/
+    .btn-careers{
+      float:right
+    }
+  
+    @media (max-width: 769px) {
+      .btn-careers{
+        float: none;
+      }
+    }
+  
+  /******************************about***************/
+  #about_bg{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("../images/new_version/leader/leader.png")
+  }
+  
+  #bg_card_about{
+    height: 150vh;
+    background-image: url(../images/new_version/about/about_cards.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 769px) {
+    #bg_card_about{
+      height: 320vh;
+      background-image: url(../images/new_version/about/about_cards.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+  
+  
+  #investors_about {
+    height: 120vh;
+    background-image: url(../images/new_version/home/bg_investors.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 769px) {
+    #investors_about {
+      height: 120vh;
+      background-image: url(../images/new_version/home/bg_investors.png);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+   
+  
+  
+  /***************FOOTER****************/
+  .footer_header {
+    color: var(--bs-body-font-color);
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5.33549px;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  @media (max-width: 769px) {
+  .footer_header{
+    color: var(--bs-body-font-color);
+     
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.5rem;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5.33549px;
+    text-transform: uppercase;
+    padding-left: 10px;
+     
+    }
+  }
+  
+  .line_navbar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .logo_footer {
+    float: left;
+  }
+  @media (max-width: 769px) {
+    .logo_footer {
+      float: none;
+    }
+  }
+  
+  .text_footer{
+    color: var(--bs-body-font-color);
+    font-family: var(--bs--montserrat);
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+  .footer_icons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  /* +------------ LITEPAPER BASIC STYLES ------------+ */
+  #litepaper-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    /* border-radius: 8px 0 0 8px; */
+  }
+  
+  #litepaper-main-content-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px dashed yellow; */
+    margin: 0 0.75rem 0 0 !important;
+  }
+  
+  
+  /* #introduction {
+    margin: 0;
+  } */
+  .litepaper-section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  width: 80%;
+  }
+  
+  
+  /* #litepaper-rt-sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 0.75rem;
+  } */
+  #litepaper-horizontal-nav {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+  padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem ;
+    margin-bottom: 2.5rem;
+    border: 1px solid #ffffff;
+  /* border: 1px solid #41EAD4; */
+    border-radius: 15px;
+  }
+  .litepaper-subnav-link {
+  color: #41EAD4 !important;
+  text-decoration: none;
+  }
+  #litepaper-header {
+  padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  #litepaper-horizontal-nav > a {
+    margin-right: 1rem;
+  }
+  #litepaper-horizontal-nav > ol {
+    margin-bottom: 0;
+  }
+  #sidebar-nav {
+    margin: 0 0.5rem 0 0.5rem;
+    border: 1px solid #75736e;
+    border-radius: 15px;
+    /* padding-top: 0; */
+  }
+  #sidebar-nav > ol {
+    padding-inline-start: 10px;
+  }
+  #litepaper-img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .text-terms {
+    width: 800px; 
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 180%;
+  margin-bottom: 0.5rem;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .readmore{
+    color: #8BB4FE !important;
+  }
