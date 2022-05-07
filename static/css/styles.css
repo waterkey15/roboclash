@@ -567,7 +567,7 @@
   
   #home {
     height: 100vh;
-    background-image: url("../images/new_version/home/home_hero_new.jpeg");
+    background-image: url("../images/new_version/home/main page artwork 1.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -580,7 +580,7 @@
   
   #investors {
     height: 120vh;
-    background-image: url("../images/new_version/home/bg_investors.png");
+    background-image: url("../images/new_version/home/partners&inverstors background.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -590,7 +590,7 @@
   @media (max-width: 769px) {
     #investors {
       height: 60vh;
-      background-image: url("../images/new_version/home/bg_investors.png");
+      background-image: url("../images/new_version/home/partners&inverstors background.png");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -701,7 +701,7 @@
   
   #hero_game {
     height: 100vh;
-    background-image: url(../images/new_version/game/hero_game.png);
+    background-image: url(../images/new_version/game/artwork1.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -711,8 +711,8 @@
   
   
   #bg_cards{
-    height: 160vh;
-    background-image: url(../images/new_version/game/bg_cards.png);
+    height: 1700px;
+    background-image: url(../images/new_version/game/arm\ your\ robo\ background.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -720,10 +720,10 @@
     padding-bottom: 30rem;
   }
   
-  @media (max-width: 769px){
+  @media (max-width: 990PX){
     #bg_cards{
-      height: 2050px;
-      background-image: url(../images/new_version/game/bg_cards.png);
+      height: 3600px;
+      background-image: url(../images/new_version/game/arm\ your\ robo\ background.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -758,11 +758,19 @@
         background-position: center center;
         background-size: cover;
       } 
+      #bg_cards{
+        height: 3500px;
+        background-image: url(../images/new_version/game/arm\ your\ robo\ background.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        padding-bottom: 30rem;
+      }
     }
   
     #play_drops{
-      height: 180vh;
-      background-image: url(../images/new_version/minigame/play_minigame.png);
+      background-image: url(../images/new_version/minigame/play\ for\ creating\ background.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -810,12 +818,13 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    background-image: url("../images/new_version/leader/leader.png")
+    background-image: url("../images/new_version/about/artwork1.png")
   }
   
   #bg_card_about{
-    height: 150vh;
-    background-image: url(../images/new_version/about/about_cards.png);
+    background-color: black;
+    height: 100vh;
+    background-image: url(../images/new_version/about/pigeons&spike background.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -824,8 +833,8 @@
   
   @media (max-width: 769px) {
     #bg_card_about{
-      height: 320vh;
-      background-image: url(../images/new_version/about/about_cards.png);
+      height: 80vh;
+      background-image: url(../images/new_version/about/pigeons&spike background.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -836,7 +845,7 @@
   
   #investors_about {
     height: 120vh;
-    background-image: url(../images/new_version/home/bg_investors.png);
+    background-image: url(../images/new_version/home/partners&inverstors background.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -846,7 +855,7 @@
   @media (max-width: 769px) {
     #investors_about {
       height: 120vh;
-      background-image: url(../images/new_version/home/bg_investors.png);
+      background-image: url(../images/new_version/home/partners&inverstors background.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -1050,3 +1059,431 @@
   .readmore{
     color: #8BB4FE !important;
   }
+
+  .logo_image{
+    max-height: 120px;
+  }
+
+  .play_now_continaer_img{
+    max-width: 100px;
+  }
+
+  .play-game{
+    position: relative;
+  }
+
+  .play-text{
+    position: absolute;
+    top: 12;
+    left: 30px;
+  }
+
+  #mainNav{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important
+  }
+
+  .roboclash-header{
+    margin-top: 200px;
+  }
+
+  .roboclash-header-text{
+    font-size: 90px;
+    font-weight: 900;
+  }
+
+  @media (max-width: 900px) {
+    .roboclash-header-text{
+      font-size: 60px;
+      font-weight: 900;
+    }
+    .investor-self-image{
+      max-width: 120px !important;
+    }
+  }
+
+  @media (max-width: 475px) {
+    .roboclash-header-text{
+      font-size: 40px;
+      font-weight: 900;
+    }
+    .investor-self-image{
+      max-width: 70px !important;
+    }
+    .investor-images{
+      gap: 40px !important;
+    }
+  }
+
+
+  .fight-section{
+    padding-top: 100px;
+    background-color: #212121;
+  }
+
+  .monserrat_85_80_250{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .jost_48_43_400{
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .welcommer{
+    margin-top: 50px;
+    font-size: 10.2px;
+    margin-bottom: -10px;
+  }
+
+  .line{
+    width: 100%;
+    height: 50px;
+    margin-bottom: -24px;
+  }
+
+  .play-to-earn {
+    background-image: url("../images/new_version/home/avax background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+
+  .avax-image{
+    margin-top: 40px;
+  }
+
+  .play-to-earn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .junkyard{
+    background-color: #212121;
+  }
+
+  .junkyard-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+
+  .crafting {
+    background-image: url("../images/new_version/home/crafting\ page\ background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .craft-items-image{
+    width: 70%;
+  }
+
+  .craft-mode-section{
+    background-color: #212121;
+  }
+
+  .crafting-mode{
+    padding-top: 60px;
+  }
+
+  .investors{
+    background-image: url("../images/new_version/home/crafting\ page\ background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .bottom-txt{
+    margin-bottom: 90px;
+  }
+
+  .investor-images{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .investor-self-image{
+    margin-top: 100px;
+    width:30%;
+    max-width: 150px;
+  }
+
+  .investor-line{
+    position: absolute;
+    bottom: 0;
+  }
+
+  .bg-footer{
+    margin-top: 0;
+    padding-top: 4rem;
+    background-color: #212121;
+  }
+
+  .social-media-item{
+    width: 3rem;
+    cursor: pointer;
+  }
+
+  .social-media-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .bg-footer{
+    padding-top:0;
+  }
+
+  .top-footer{
+    padding-top: 4rem;
+  }
+
+  .bottom-footer{
+    padding-top: 0 !important;
+  }
+
+  .navbar{
+    z-index: 999;
+  }
+
+  .how-to-play-text{
+    margin-top: 11rem !important;
+  }
+
+  #bg_cards{
+    padding-top: 100px;
+  }
+
+  .card-image{
+    max-width: 300px;
+  }
+
+  .craf-equip{
+    background-color: #212121;
+    margin-top: 0 !important;
+  }
+
+  .text-center {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+
+  .roboparts{
+    background-image: url("../images/new_version/game/arm\ your\ robo\ background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .arm-your-robo{
+    background-color: #212121;
+  }
+
+  .arm-your-robo-2{
+    background-image: url("../images/new_version/game/arm\ your\ robo\ background.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .information-misil{
+    width: 50%;
+    min-width: 300px;
+  }
+
+  .weapons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .weapon{
+    width: 33%;
+    min-width: 100px;
+  }
+
+  .more-detail{
+    margin-top: 100px;
+  }
+
+  .read-whitepaper-button{
+    width: 250px;
+  }
+
+  .button-container{
+    position: relative;
+  }
+
+  .read-whitepaper-text{
+    position: absolute;
+    top: 50;
+    left: 55;
+  }
+
+  #home-modes{
+    height: 100vh;
+    background-image: url("../images/new_version/minigame/game\ modes\ artwork\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .earn-avax-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .play-now-image{
+    width: 10rem;
+  }
+
+  .play-now-text{
+    position: absolute;
+    width: 10rem;
+    font-size: 20px;
+    top: 20;
+  }
+
+  .play-now-container{
+    position: relative;
+    width: 10rem;
+    margin-top: 30px;
+  }
+
+  .create-nft-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+  }
+
+  .create-nft-img{
+    max-width: 250px;
+    object-fit: contain;
+  }
+
+  .create-nft-description{
+    position: relative;
+  }
+
+  .create-nft-description-txt{
+    position: absolute;
+    top: 80;
+    left: 80px;
+    right: 60px;
+    color: #000;
+  }
+
+  .create-nft-description-background{
+    height: 356px;
+    object-fit: contain;
+  }
+
+  @media (max-width: 900px) {
+    .create-nft-description-background{
+      height: 356px;
+      width: 400px;
+      object-fit: unset;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .create-nft-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .create-nft-img{
+      margin-bottom: -50px
+
+    }
+  }
+
+  @media (max-width: 500px) {
+    .create-nft-description-background{
+      width: 300px;
+      height: 500px;
+    }
+  }
+
+  .last-item{
+    margin-bottom: 0;
+    padding-bottom: 80px;
+  }
+
+  .roboclash-header-text-team{
+    font-size: 30px;
+  }
+
+  .team-desc{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 50px;
+  }
+
+  .team-members-container{
+    display: flex; 
+    justify-content: center;
+  }
+
+  .team-member{
+    max-width: 500px;
+  }
+
+  @media (max-width: 1000px) {
+    .team-member{
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .team-members-container{
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .team-member{
+      max-width: 500px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .team-member{
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .team-member{
+      max-width: 300px;
+    }
+  }
+
