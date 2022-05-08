@@ -1136,11 +1136,12 @@
   .craft-line{
     position: relative;
     bottom: -34;
+    width: 100%;
   }
 
   .welcome-craft{
     position: relative;
-    bottom: -74;
+    bottom: -40;
     font-size: 10px;
     font-weight: 100;
   }
@@ -1549,7 +1550,8 @@
   }
 
   .mode-line{
-    margin-bottom: -20px;
+    margin-bottom: -12px;
+    width: 100%;
   }
 
   .investors-line{
@@ -1680,4 +1682,23 @@
 
   .more-info:hover{
     cursor:pointer;
+  }
+
+  .fight-win-earn{
+    font-size: 45px;
+  }
+
+  .pvp-battle{
+    font-size: 25px;
+  }
+
+  .new-video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trailer-video{
+    width: 90%;
+    max-width: 700px;
   }
