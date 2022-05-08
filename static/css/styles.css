@@ -1706,3 +1706,12 @@
   .monserrat_36_43_700{
     line-height: normal !important;
   }
+
+  #coming-soon {
+    height: 100vh;
+    background-image: url("../images/new_version/gral/coming\ soon\ artwork.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }

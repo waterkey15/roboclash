@@ -51,11 +51,10 @@
                 
             </div>
 
-			<div class="play_game play-game">
-				<!-- <span class="btn btn-primary btn-xl montserrat" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">Play</a> -->
-					<img class="play_now_continaer_img" src="./static/images/new_version/gral/play_now.png" alt="">
-					<p class="play-text">Play</p>
-			</div>
+            <div onclick="navigateToComingSoon()" class="play_game play-game" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">
+                <img class="play_now_continaer_img" src="./static/images/new_version/gral/play_now.png" alt="">
+                <p class="play-text">Play</p>
+          </div>
 
         </div>
     </div>
@@ -102,8 +101,6 @@
 
 
     
-    
-
 <footer class="bg-footer margin-top-8 top-footer">
 	<div class="container px-4">
 		<div class="container px-4 px-lg-5">
@@ -112,14 +109,14 @@
 					<span class="footer_header"><a href="./team.html"> about </a></span>
 					<span class="footer_header"><a href="https://robo-clash.gitbook.io/roboclash-whitepaper/" target="_blank"> whitepaper </a></span>
 				</div>
-
+<!-- 
 				<div class="social-media-holder">
           <a href="https://twitter.com/RoboclashIO" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/twitter logo bottom.png" alt="">          </a>
           <a href="https://t.co/AyToASqSPC" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/discord logo bottom.png" alt="">          </a>
           <a href="https://t.me/roboclashio" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/telegram logo bottom.png" alt="">          </a>
           <a href="https://www.youtube.com/channel/UCXNBneY6-ccFEnFMVIh1iwg/featured" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/youtube logo bottom.png" alt="">          </a>
 
-				</div>
+				</div> -->
 			</div>
 			
 
@@ -138,12 +135,17 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 ">
-					<p class="mb-0 list-unstyled footer-link-grey footer_tyc">
+					<!-- <p class="mb-0 list-unstyled footer-link-grey footer_tyc">
 						<a class="mr-md-3 footer-link-grey" href="/terms"> T&amp;Cs </a>
 						&nbsp;&nbsp;
 						<a class="mr-md-3 footer-link-grey" href="/privacy"> Privacy </a>
-
-					</p>
+          </p> -->
+				<div class="social-media-holder">
+          <a href="https://twitter.com/RoboclashIO" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/twitter logo bottom.png" alt="">          </a>
+          <a href="https://t.co/AyToASqSPC" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/discord logo bottom.png" alt="">          </a>
+          <a href="https://t.me/roboclashio" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/telegram logo bottom.png" alt="">          </a>
+          <a href="https://www.youtube.com/channel/UCXNBneY6-ccFEnFMVIh1iwg/featured" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/youtube logo bottom.png" alt="">          </a>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -234,7 +236,11 @@
 </footer>-->
 
 
-
+<script>
+	  function navigateToComingSoon(){
+    window.location.href = "./comingsoon.html"
+  }
+</script>
 
 
 
