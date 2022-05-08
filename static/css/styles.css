@@ -1460,7 +1460,7 @@
 
   @media (max-width: 900px) {
     .create-nft-description-background{
-      height: 356px;
+      height: 400px;
       width: 400px;
       object-fit: unset;
     }
@@ -1480,7 +1480,7 @@
   @media (max-width: 500px) {
     .create-nft-description-background{
       width: 300px;
-      height: 500px;
+      height: 600px;
     }
   }
 
