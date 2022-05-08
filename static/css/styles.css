@@ -1677,3 +1677,7 @@
   .read-whitepaper-a-tag{
     text-decoration: none;
   }
+
+  .more-info:hover{
+    cursor:pointer;
+  }
