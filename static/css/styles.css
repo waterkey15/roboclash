@@ -556,6 +556,9 @@
       list-style: none;
       margin-left: 0;
     }
+    .img-holder{
+      margin-top: 0 !important;
+    }
   }
   
   .bg-dark {
@@ -600,8 +603,7 @@
   
   /******************TOKENOMICS*********/
   #header_tokenomics {
-      height: 120vh;
-      background-image: url("../images/new_version/tokenomics/hero2.png");
+      background-image: url("../images/new_version/tokenomics/artwork1.png");
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -610,8 +612,7 @@
   
     @media (max-width: 769px) {
       #header_tokenomics {
-        height: 150vh;
-        background-image: url("../images/new_version/tokenomics/hero2.png");
+        background-image: url("../images/new_version/tokenomics/artwork1.png");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -639,8 +640,7 @@
   
   
   #token_section{
-      height: 100%;
-      background-image: url(../images/new_version/tokenomics/token_section.png);
+      background-image: url(../images/new_version/tokenomics/how\ will\ nft\ will\ earn\ arkaplan.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -650,8 +650,7 @@
   
     @media (min-width: 300px) {
       #token_section{
-        height: 100%;
-        background-image: url(../images/new_version/tokenomics/token_section.png);
+        background-image: url(../images/new_version/tokenomics/how\ will\ nft\ will\ earn\ arkaplan.png);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-position: center center;
@@ -660,8 +659,7 @@
       }
       @media (max-width: 1026px) {
         #token_section{
-          height: 100%;
-          background-image: url(../images/new_version/tokenomics/token_section.png);
+          background-image: url(../images/new_version/tokenomics/how\ will\ nft\ will\ earn\ arkaplan.png);
           background-repeat: no-repeat;
           background-attachment: scroll;
           background-position: center center;
@@ -670,8 +668,7 @@
         }
         @media (max-width: 769px) {
           #token_section{
-            height: 100%;
-            background-image: url(../images/new_version/tokenomics/token_section.png);
+            background-image: url(../images/new_version/tokenomics/how\ will\ nft\ will\ earn\ arkaplan.png);
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-position: center center;
@@ -729,6 +726,9 @@
       background-position: center center;
       background-size: cover;
       padding-bottom: 30rem;
+    }
+    .navbar{
+      height: auto !important;
     }
     }
   
@@ -823,17 +823,16 @@
   
   #bg_card_about{
     background-color: black;
-    height: 100vh;
     background-image: url(../images/new_version/about/pigeons&spike background.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    padding-bottom: 80px
   }
   
   @media (max-width: 769px) {
     #bg_card_about{
-      height: 80vh;
       background-image: url(../images/new_version/about/pigeons&spike background.png);
       background-repeat: no-repeat;
       background-attachment: scroll;
@@ -1061,11 +1060,12 @@
   }
 
   .logo_image{
-    max-height: 120px;
+    max-height: 100px;
   }
 
   .play_now_continaer_img{
     max-width: 100px;
+    cursor: pointer;
   }
 
   .play-game{
@@ -1076,6 +1076,7 @@
     position: absolute;
     top: 12;
     left: 30px;
+    cursor: pointer;
   }
 
   #mainNav{
@@ -1085,7 +1086,7 @@
   }
 
   .roboclash-header{
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .roboclash-header-text{
@@ -1101,6 +1102,13 @@
     .investor-self-image{
       max-width: 120px !important;
     }
+    .play_game{
+      top: 50px;
+    }
+    .navbar-collapse{
+      height: 250px;
+    }
+
   }
 
   @media (max-width: 475px) {
@@ -1118,8 +1126,34 @@
 
 
   .fight-section{
-    padding-top: 100px;
+    padding-top: 35px;
     background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .craft-line{
+    position: relative;
+    bottom: -34;
+  }
+
+  .welcome-craft{
+    position: relative;
+    bottom: -74;
+    font-size: 10px;
+    font-weight: 100;
+  }
+
+  .jost_48_43_400{
+    max-width: 770px;
+    text-align: center;
+  }
+
+  .craft-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .monserrat_85_80_250{
@@ -1263,10 +1297,11 @@
 
   .navbar{
     z-index: 999;
+    height: 120px;
   }
 
   .how-to-play-text{
-    margin-top: 11rem !important;
+    margin-top: 11rem;
   }
 
   #bg_cards{
@@ -1282,9 +1317,8 @@
     margin-top: 0 !important;
   }
 
-  .text-center {
-    padding-top: 70px;
-    padding-bottom: 50px;
+  .text-center-h1 {
+    padding-top: 80px;
   }
 
   .roboparts{
@@ -1296,7 +1330,7 @@
   }
 
   .arm-your-robo{
-    background-color: #212121;
+    background-color: #282828;
   }
 
   .arm-your-robo-2{
@@ -1338,12 +1372,15 @@
 
   .button-container{
     position: relative;
+    top: -30;
   }
 
   .read-whitepaper-text{
     position: absolute;
-    top: 50;
+    top: 55;
     left: 55;
+    font-weight: bold;
+    color: #fff;
   }
 
   #home-modes{
@@ -1379,6 +1416,10 @@
     margin-top: 30px;
   }
 
+  .play-now-container:hover{
+    cursor: pointer;
+  }
+
   .create-nft-container{
     display: flex;
     justify-content: center;
@@ -1397,7 +1438,7 @@
 
   .create-nft-description-txt{
     position: absolute;
-    top: 80;
+    top: 50;
     left: 80px;
     right: 60px;
     color: #000;
@@ -1406,6 +1447,15 @@
   .create-nft-description-background{
     height: 356px;
     object-fit: contain;
+  }
+
+  .desc-header-modes{
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+  .desc-header-txt{
+    padding-top: 20px;
   }
 
   @media (max-width: 900px) {
@@ -1447,6 +1497,7 @@
     font-size: 20px;
     font-weight: 300;
     padding-top: 50px;
+    max-width: 700px;
   }
 
   .team-members-container{
@@ -1487,3 +1538,142 @@
     }
   }
 
+  @media (max-width: 990px) {
+    .collapsed{
+      margin-bottom: -50px;
+    }
+  }
+
+  .welcome-mode{
+    font-size: 10px;
+  }
+
+  .mode-line{
+    margin-bottom: -20px;
+  }
+
+  .investors-line{
+    margin-top: 100%;
+  }
+
+  #home{
+    display: flex;
+    align-items: center;
+  }
+
+  #hero_game{
+    display: flex;
+    align-items: center;
+  }
+
+  #home-modes{
+    display: flex;
+    align-items: center;
+  }
+
+  #about_bg{
+    display: flex;
+    align-items: center;
+  }
+
+  .how-to-play-text{
+    position: relative;
+  }
+
+  .how-to-play-descrip{
+    position: absolute;
+    top: 100;
+    font-size: 30px;
+    max-width: 350px;
+    left: 80;
+    color: #000;
+  }
+
+  .whitepaper-header{
+    font-size: 30px;
+  }
+
+  .whitepaper-desc{
+    font-size: 15px;
+    max-width: 200px;
+  }
+
+  .how-will-learn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-will-learn-header{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .how-will-learn-section{
+    background-image: url("../images/new_version/tokenomics/how\ will\ nft\ will\ earn\ arkaplan.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .infographics-img{
+    width: 100%;
+    max-width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .monserrat_80_85_250_tokenomics{
+    background-color: #222222;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #token_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .roadmap-img{
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  .jost_96_86_400{
+    font-size: 50px;
+  }
+
+  .read-whitepaper-button-img{
+    position: absolute;
+    top: 220;
+    left: 20;
+  }
+
+  .read-whitepaper-txt{
+    position: absolute;
+    top: 235;
+    font-size: 18px;
+    left: 29;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .jost_96_86_400{
+    font-weight: bold;
+  }
+
+  .monserrat_18_324_500{
+    max-width: 850px;
+  }
+
+  .craf-eq-built{
+    text-align: left;
+  }
+
+  .read-whitepaper-a-tag{
+    text-decoration: none;
+  }

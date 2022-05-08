@@ -29,14 +29,14 @@
     <div class="container">
 
 		<a class="navbar-brand" href="./index.html">
-            <img src="./static/images/new_version/gral/logo_menu.png">
+            <img class="logo_image" src="./static/images/new_version/gral/logo_menu.png">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse navbar-wrap" id="navbarResponsive">
-          <div class="" id="left-col-nav">
+          <div class="collapsed" id="left-col-nav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html"> HOME </a>
@@ -57,7 +57,7 @@
                 
             </div>
 
-            <div class="play_game play-game">
+            <div class="play_game play-game" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">
                 <!-- <span class="btn btn-primary btn-xl montserrat" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">Play</a> -->
                     <img class="play_now_continaer_img" src="./static/images/new_version/gral/play_now.png" alt="">
                     <p class="play-text">Play</p>
@@ -74,7 +74,7 @@
         <div class="roboclash-header-text earn-avax-container">
             <h1 class="jost_96_86_400">PVP Battle Arena</h1>
             <h3 class="monserrat_24_29_700 mt-3">Fight, Win and Earn $AVAX!</h3>
-            <div class="play-now-container">
+            <div class="play-now-container" data-toggle="tooltip" data-placement="bottom" title="Coming soon...">
                 <img class="play-now-image" src="./static/images/new_version/minigame/play now button.png" alt="">
                 <p class="play-now-text">Play Now</p>
             </div>
@@ -94,14 +94,22 @@
         <img class="create-nft-img" src="./static/images/new_version/minigame/junkyard scavengers mode visual.png" alt="">
         <div class="create-nft-description">
             <img class="create-nft-description-background" src="./static/images/new_version/minigame/junkyard scavengers mode background.png" alt="">
-            <p class="create-nft-description-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita repellendus rerum similique id eius odio, deleniti voluptatibus corporis asperiores, sit ut ipsa unde, iusto iure veritatis beatae ipsam vitae!</p>
+            <div class="create-nft-description-txt">
+                <h1 class="desc-header-modes">Junkyard Scavengers Mode</h1>
+                <p class="desc-header-txt">Mine by accessing Junkyard Scavengers Mode for exclusive crafting items! You can use Junkyards that contain much higher quality craft materials than loot earned in PvP’s.</p>
+                <p class="more-info"><b>for more information read whitepaper from here</b></p>
+            </div>
         </div>
     </div>
     <div class="create-nft-container last-item">
         <img class="create-nft-img" src="./static/images/new_version/minigame/crafting mode visual.png" alt="">
         <div class="create-nft-description">
             <img class="create-nft-description-background" src="./static/images/new_version/minigame/junkyard scavengers mode background.png" alt="">
-            <p class="create-nft-description-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita repellendus rerum similique id eius odio, deleniti voluptatibus corporis asperiores, sit ut ipsa unde, iusto iure veritatis beatae ipsam vitae!</p>
+            <div class="create-nft-description-txt">
+                <h1 class="desc-header-modes">Crafting Mode</h1>
+                <p class="desc-header-txt">“Crafting” offers you to craft your NFT items by placing them in empty slots. Slots in the same shape next to each other have boosts according to their shapes.</p>
+                <p class="more-info"><b>for more information read whitepaper from here</b></p>
+            </div>
         </div>
     </div>
     
@@ -109,11 +117,10 @@
 
 
 
-    
+
 <footer class="bg-footer margin-top-8 top-footer">
 	<div class="container px-4">
 		<div class="container px-4 px-lg-5">
-
 			<div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center">
 				<div class="col-lg-8 align-self-baseline pt-3">
 					<span class="footer_header"><a href="./team.html"> about </a></span>
@@ -121,10 +128,10 @@
 				</div>
 
 				<div class="social-media-holder">
-					<img class="social-media-item" src="./static/images/new_version/gral/twitter logo bottom.png" alt="">
-					<img class="social-media-item" src="./static/images/new_version/gral/discord logo bottom.png" alt="">
-					<img class="social-media-item" src="./static/images/new_version/gral/telegram logo bottom.png" alt="">
-					<img class="social-media-item" src="./static/images/new_version/gral/youtube logo bottom.png" alt="">
+          <a href="https://twitter.com/RoboclashIO" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/twitter logo bottom.png" alt="">          </a>
+          <a href="https://t.co/AyToASqSPC" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/discord logo bottom.png" alt="">          </a>
+          <a href="https://t.me/roboclashio" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/telegram logo bottom.png" alt="">          </a>
+          <a href="https://www.youtube.com/channel/UCXNBneY6-ccFEnFMVIh1iwg/featured" target="_blank"><img class="social-media-item" src="./static/images/new_version/gral/youtube logo bottom.png" alt="">          </a>
 
 				</div>
 			</div>
@@ -141,7 +148,7 @@
 					<div class="col-md-6 col-lg-6"></div>
 					<div class="col-md-6 col-lg-6 footer_icons">
 
-						<img src="./static/images/new_version/gral/logo_menu.png" alt="">
+						<a href="./index.html"><img src="./static/images/new_version/gral/logo_menu.png" alt=""></a>
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 ">
@@ -156,6 +163,8 @@
 		</div>
 	</div>
 </footer>
+
+
 
 
 
