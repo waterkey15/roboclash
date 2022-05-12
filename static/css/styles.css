@@ -73,7 +73,7 @@
       font-weight: var(--font-weight-600);   
     }
     .monserrat_18_324_500{
-      font-size: var(--font-18);
+      font-size: var(--font-16);
       line-height: 32.4px;
       font-weight: var(--font-weight-500);       
     }
@@ -181,7 +181,7 @@
       }
   
       .monserrat_18_324_500{
-        font-size: var(--font-18);
+        font-size: var(--font-16);
         line-height: 32.4px;
         font-weight: var(--font-weight-500);       
       }
@@ -608,6 +608,7 @@
       background-attachment: scroll;
       background-position: center center;
       background-size: cover;
+      min-height: 1300px;
     }
   
     @media (max-width: 769px) {
@@ -1302,7 +1303,6 @@
   }
 
   .how-to-play-text{
-    margin-top: 11rem;
   }
 
   #bg_cards{
@@ -1646,7 +1646,7 @@
   }
 
   .jost_96_86_400{
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .read-whitepaper-button-img{
@@ -1714,4 +1714,18 @@
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+  }
+
+
+  @media (max-width: 570px) {
+    .mobile-tokenomics{
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .img-holder{
+      right: 30px;
+    }
   }
