@@ -570,7 +570,7 @@
   
   #home {
     height: 100vh;
-    background-image: url("../images/new_version/home/main page artwork 1.png");
+    background-image: url("../images/new_version/home/main\ page\ artwork\ 1.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1727,5 +1727,31 @@
   @media (max-width: 425px) {
     .img-holder{
       right: 30px;
+    }
+  }
+    
+  @media (max-width: 769px) {
+    #home {
+      background-image: url("../images/new_version/home/mobil\ artwork1.jpg");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+    #hero_game {
+      height: 100vh;
+      background-image: url(../images/new_version/game/mobil\ artwork2.jpg);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+    }
+    #about_bg{
+      height: 90vh;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-position: center center;
+      background-size: cover;
+      background-image: url("../images/new_version/about/mobil\ artwork6.jpg")
     }
   }
